@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;  
+  font-family: montserat, sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.product-card__headline {
+  text-align: center;
+  height: 78px;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  margin-top: 220px;
+  margin-bottom: 110px;
+  color: #515076;
+}
+
+.all-elements {
+  width: 1280px;
+  height: 1715px;
+  margin: 0 auto;
+  
+}
+
+.background-dandelions {
+  background: url("/images/bg-dandelions.png");
+  background-size: cover;
+  width: 790px;
+  height: 697px;
+  position: absolute;
+  margin-left: 70px;
+  top: 0px;
+  z-index: -1;
+}
+
+.product-card__wrapper {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 116px;
+  background-color: #FFFFFF;
+  gap: 45px
+}
+
+.product-card {
+  flex: 0 1 340px;
+  min-height: 573px;
+  background-color: #F7F7FA;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.product-card__img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.product-card__for-skin {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #A5A3B9;
+}
+
+.product-card__title {
+  /* Увлажняющий мусс */
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  color: #515076;
+}
+
+.product-card__deskr {
+  text-align: left;
+  max-width: 287px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 5px;
+  color: #515076;
+}
+
+.product-card__composition {
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-top: 5px;
+}
+
+.product-card__text {
+  text-align: left;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 5px;
+}
+
+.product-card__item {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin: 5px;
+}
+
+.product-card__price-box {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card__price-text{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #515076;
+}
+
+.product-card__price{
+  /* Цена */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #515076;
+}
+
+
