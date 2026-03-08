@@ -17,6 +17,43 @@
   color: #515076;
 }
 
+.buttons-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.buttons-group button {
+  padding: 6px 12px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: all 0.5s;
+  border:  none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f0f0;
+
+
+
+}
+
+.btn__repaint-me{
+  background-color: #5d6d7e !important;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.btn__repaint-me.active {
+  background-color: #a93226 !important;
+  color: white;
+}
+
 .all-elements {
   width: 1280px;
   height: 1715px;
