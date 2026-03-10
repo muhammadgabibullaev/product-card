@@ -30,14 +30,14 @@ function openGoogle() {
 
   if (answer === true) {
     window.open("https://google.com");
-  } else{
+  } else {
     console .log("пользователь отменил переход на сайт");
   }
 }
 
 // вывод текста в консоль при наведений мышки на заголовок
 
-const productCardHeadline =document.querySelector(".product-card__headline");
+const productCardHeadline = document.querySelector(".product-card__headline");
 productCardHeadline.addEventListener("mouseover", () => {
   console.log(productCardHeadline.textContent);
 });
@@ -48,8 +48,3 @@ const repaintMeButton = document.getElementById("repaint-me-button");
 repaintMeButton.addEventListener("click", () => {
   repaintMeButton.classList.toggle("active");
 });
-
-
-
-
-
