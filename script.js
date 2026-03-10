@@ -5,7 +5,7 @@ const warmBeigColor ="#dcd0c0";
 
 recolorFirstCardButton.addEventListener("click", () => {
   firstCatalogCard.style.backgroundColor = warmBeigColor;
-})
+});
 
 // покраска всех карточек
 
@@ -17,7 +17,7 @@ recolorAllCardButton.addEventListener("click", () => {
   catalogCards.forEach(
     card =>card.style.backgroundColor = softOliveColor
   )
-})
+});
 
 // переход на страницу Google
 
@@ -25,12 +25,13 @@ const googleOpenButton = document.getElementById("open-google-button");
 googleOpenButton.addEventListener("click",openGoogle);
 
 function openGoogle() {
-  const answer = confirm("вы действительно хотите перейти на сайт Google?")
-console .log(answer);
-if (answer === true) {
-  window.open("https://google.com");
+  const answer = confirm("вы действительно хотите перейти на сайт Google?");
+  console .log(answer);
+
+  if (answer === true) {
+    window.open("https://google.com");
   } else{
-  console .log("пользователь отменил переход на сайт")
+    console .log("пользователь отменил переход на сайт");
   }
 }
 
@@ -46,7 +47,7 @@ productCardHeadline.addEventListener("mouseover", () => {
 const repaintMeButton = document.getElementById("repaint-me-button");
 repaintMeButton.addEventListener("click", () => {
   repaintMeButton.classList.toggle("active");
-})
+});
 
 
 

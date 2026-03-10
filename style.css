@@ -37,12 +37,9 @@
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   background-color: #f0f0f0;
-
-
-
 }
 
-.btn__repaint-me{
+.btn__repaint-me {
   background-color: #5d6d7e !important;
   color: white;
   border-radius: 10px;
@@ -58,7 +55,6 @@
   width: 1280px;
   height: 1715px;
   margin: 0 auto;
-  
 }
 
 .background-dandelions {
@@ -157,14 +153,14 @@
   justify-content: space-between;
 }
 
-.product-card__price-text{
+.product-card__price-text {
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
   color: #515076;
 }
 
-.product-card__price{
+.product-card__price {
   /* Цена */
   font-weight: 400;
   font-size: 20px;
